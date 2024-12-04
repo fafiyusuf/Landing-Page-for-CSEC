@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/jpg" href="photos/photo_2024-08-11_15-20-38.jpg">
+    <title>CSEC ASTU</title>
+    <style>
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.5s, transform 0.5s;
+        }
+        
+        .animate-on-scroll.fade-up {
+            transform: translateY(50px);
+        }
+        
+        .animate-on-scroll.fade-right {
+            transform: translateX(50px);
+        }
+        
+        .animate-on-scroll.fade-left {
+            transform: translateX(-50px);
+        }
+        
+        .animate-on-scroll.zoom-in {
+            transform: scale(0.5);
+        }
+        
+        .animate-on-scroll.flip-left {
+            transform: rotateY(90deg);
+        }
+        
+        .animate-on-scroll.flip-right {
+            transform: rotateY(-90deg);
+        }
+        
+        .animate-on-scroll.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .animate-on-scroll.delay-100 {
+            transition-delay: 0.1s;
+        }
+        
+        .animate-on-scroll.delay-200 {
+            transition-delay: 0.2s;
+        }
+        
+        .animate-on-scroll.delay-300 {
+            transition-delay: 0.3s;
+        }
+        
+        .animate-on-scroll.delay-400 {
+            transition-delay: 0.4s;
+        }
+        
+        .animate-on-scroll.delay-500 {
+            transition-delay: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-brand">
+            <a href="index.html">
+                <img src="photos/photo_2024-08-11_15-20-38.jpg" alt="CSEC ASTU Logo" class="nav-logo">
+            </a>
+        </div>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#divisions">Divisions</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="join.html" class="nav-cta">Join Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to CSEC ASTU</h1>
+            <p>Empowering students through technology and innovation</p>
+            <div class="cta-buttons">
+                <a href="#about" class="cta-btn">Learn More</a>
+                <a href="join.html" class="cta-btn primary">Join Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="animate-on-scroll fade-up">About Us</h2>
+        <p class="animate-on-scroll fade-up delay-100">CSEC ASTU is a vibrant computer science and technology club at Adama Science and Technology University (ASTU). Open to all departments, we aim to foster innovation and excellence in the tech community through training, competitions, and real-world projects.</p>
+
+        <!-- Vision, Mission, and Values Section -->
+        <div class="goals">
+            <div class="goal-item animate-on-scroll fade-right">
+                <i class="fas fa-eye"></i>
+                <h3>Vision</h3>
+                <p>To be a dynamic hub of innovation, collaboration, and excellence in computer science and technology.</p>
+            </div>
+            <div class="goal-item animate-on-scroll fade-up delay-200">
+                <i class="fas fa-bullseye"></i>
+                <h3>Mission</h3>
+                <p>Empowering students to lead and transform the tech industry through practical skills, mentorship, and collaboration.</p>
+            </div>
+            <div class="goal-item animate-on-scroll fade-left">
+                <i class="fas fa-star"></i>
+                <h3>Values</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i> Innovation</li>
+                    <li><i class="fas fa-check"></i> Collaboration</li>
+                    <li><i class="fas fa-check"></i> Inclusivity</li>
+                    <li><i class="fas fa-check"></i> Excellence</li>
+                    <li><i class="fas fa-check"></i> Integrity</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divisions Section -->
+    <section id="divisions" class="divisions">
+        <h2 class="animate-on-scroll fade-up">Our Divisions</h2>
+        <div class="division-container">
+            <div class="division animate-on-scroll zoom-in delay-100">
+                <i class="fas fa-code"></i>
+                <h3>Competitive Programming Division (CPD)</h3>
+                <p>Focuses on algorithmic problem-solving through contests, tutorials, and inter-university competitions like ICPC.</p>
+            </div>
+            <div class="division animate-on-scroll zoom-in delay-200">
+                <i class="fas fa-users"></i>
+                <h3>Capacity Building Division (CBD)</h3>
+                <p>Prepares seminars, tutorials, and community outreach programs to spread awareness about technology.</p>
+            </div>
+            <div class="division animate-on-scroll zoom-in delay-300">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Development Division</h3>
+                <p>Enhances web and mobile development skills through real-world projects, challenges, and hackathons.</p>
+            </div>
+            <div class="division animate-on-scroll zoom-in delay-400">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Cybersecurity Division</h3>
+                <p>Focuses on ethical hacking, cybersecurity, and securing digital infrastructures.</p>
+            </div>
+            <div class="division animate-on-scroll zoom-in delay-500">
+                <i class="fas fa-brain"></i>
+                <h3>Data Science Division</h3>
+                <p>Explores data science, analytics, and machine learning. Coming soon!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="community">
+        <h2 class="animate-on-scroll fade-up">Our Community</h2>
+        <div class="community-grid">
+            <div class="community-card animate-on-scroll flip-left">
+                <img src="./photos/pic.jpg" alt="Entrance Contest">
+                <h3>Entrance Contest</h3>
+                <p>Entrance contest hands-on sessions to be part of our community and grow together</p>
+            </div>
+            <div class="community-card animate-on-scroll flip-left delay-100">
+                <img src="./photos/pic1.jpg" alt="leadership ">
+                <h3>Leadership</h3>
+                <p>Outgoing president and incoming president  together, celebrating a smooth leadership transition.</p>
+            </div>
+            <div class="community-card animate-on-scroll flip-right delay-200">
+                <img src="./photos/pic3 (2).jpg" alt="Meetup">
+                <h3>Tech Meetups</h3>
+                <p>Network with fellow tech enthusiasts and industry experts</p>
+            </div>
+            <div class="community-card animate-on-scroll flip-right delay-300">
+                <img src="./photos/pic6.jpg" alt="Community training">
+                <h3>Community Training</h3>
+                <p>tutorial sessions </p>
+            </div>
+            <div class="community-card animate-on-scroll flip-left delay-400">
+                <img src="./photos/pic7.jpg" alt="Training Sessions">
+                <h3>CTF competitions</h3>
+                <p>Participants of the CTF competition united by teamwork, problem-solving, and a shared passion for cybersecurity!</p>
+            </div>
+            <div class="community-card animate-on-scroll flip-right delay-400">
+                <img src="./photos/pic8.jpg" alt="ETCPC ">
+                <h3>ETCPC </h3>
+                <p>Captured moments from the ICPC competition: intense focus, problem-solving under pressure, and the drive to code their way to victory!</p>
+            </div>
+            <div class="community-card animate-on-scroll flip-left delay-500">
+                <img src="./photos/pic9.jpg" alt="Mock Contest">
+                <h3>Mock contest </h3>
+                <p>Prepartion for Annual ETCPC competition</p>
+            </div>
+            <div class="community-card animate-on-scroll flip-right delay-500">
+                <img src="./photos/pic4.jpg" alt="Team Building">
+                <h3>Team Building</h3>
+                <p>Fun activities to strengthen our community bonds</p>
+            </div>
+        </div>
+        
+        <div class="community-stats">
+            <div class="stat animate-on-scroll fade-up">
+                <i class="fas fa-users"></i>
+                <h3>150+</h3>
+                <p>Active Members</p>
+            </div>
+            <div class="stat animate-on-scroll fade-up delay-100">
+                <i class="fas fa-project-diagram"></i>
+                <h3>4000+</h3>
+                <p>Online Community</p>
+            </div>
+            <div class="stat animate-on-scroll fade-up delay-200">
+                <i class="fas fa-calendar-check"></i>
+                <h3>100+</h3>
+                <p>Events Organized</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> contact@csec-astu.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Adama Science and Technology University</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://ift.tt/2PEWePp" title="Facebook" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://t.me/CSEC_ASTU" title="Telegram" class="social-icon"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.linkedin.com/company/csec-astu" title="LinkedIn" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/CSEC-ASTU" title="Github" class="social-icon"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 CSEC ASTU. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const elementsToAnimate = document.querySelectorAll('.animate-on-scroll');
+
+        window.addEventListener('scroll', () => {
+            elementsToAnimate.forEach((element) => {
+                const elementTop = element.offsetTop;
+                const elementHeight = element.offsetHeight;
+                const viewportHeight = window.innerHeight;
+                const scrollPosition = window.scrollY;
+
+                if (scrollPosition + viewportHeight > elementTop + elementHeight / 2) {
+                    element.classList.add('show');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
